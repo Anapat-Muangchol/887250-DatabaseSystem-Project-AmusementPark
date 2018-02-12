@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ticket Type - Amusement Park</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/gif" href="../images/logo.gif" />
+    <link
+            href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic|Noto+Sans:400,400italic,700,700italic'
+            rel='stylesheet' type='text/css'>
+    <link href="../css/myStyle.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+<body>
+<div id="topbar">
+    <div id="menubar">
+        <ul>
+            <li><a href="../">Home</a></li>
+            <li><a href="../Customer">Customer</a></li>
+            <li><a href="../ReceiptsDetail">Receipts Detail</a></li>
+            <li><a href="../TicketType">Ticket Type</a></li>
+            <li><a href="../Zone">Zone</a></li>
+            <li><a href="../PlayMachine">Play Machine</a></li>
+        </ul>
+    </div>
+</div>
+<div id="content">
+
+    <div class="form-group">
+        <p id="search">Search</p>
+        <form method="post" name="Zone" action="index.html">
+            <label for="idType">ID</label>
+            <input class="fill" id="idType" placeholder="Eg. TDP, TFP, TYP..." type="text" name="idType" value="">
+            <label for="nameType">Name</label>
+            <input class="fill" id="nameType" placeholder="Eg. Day Pass, Kid Pass, Water Pass..." type="text" name="nameType" value="">
+            <label for="priceType">Price</label>
+            <input class="fill" id="priceType" placeholder="Eg. 900, 250, 3000..." type="number" name="priceType" value="">
+        </form>
+    </div>
+
+    <p id="status" style="text-align:center"><b>Ticket Type</b></p>
+
+    <div id="results"></div>
+
+</div>
+
+<script src="typeSearch.js"></script>
+
+</body>
+</html>

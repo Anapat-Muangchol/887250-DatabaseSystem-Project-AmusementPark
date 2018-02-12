@@ -1,0 +1,204 @@
+/*
+This style was created by Satawass Srisan for Database Project.
+*/
+
+@media only screen and (max-width: 960px) {
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Noto Sans Thai, sans-serif;
+    background-color:#F4F5F5;
+    color: dimgrey;
+}
+
+.card {
+    -webkit-box-shadow: 0 4px 3px 0 #B4B4B5;
+    box-shadow: 0 4px 3px 0 #B4B4B5;
+
+}
+
+
+#content {
+    /*border: 1px solid darkgrey;*/
+    margin-top: 100px;
+}
+
+.receipts {
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid #C1C1C1 ;
+    margin: auto;
+    background-color: white;
+}
+
+hr {
+    border-collapse: collapse;
+    border-color: black;
+}
+
+.customerDetail {
+    /*border: 1px solid royalblue;*/
+    width: 80%;
+}
+
+table a:link{ color: darkgrey; }
+
+table a:hover{color: black;}
+
+table a:visited{ color: black; }
+
+table {
+    margin:auto;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.table-header {
+    color: white;
+    background-color: black !important;
+}
+
+.table-striped tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.table-striped tr:hover:not(.table-header) {
+    background-color: rgba(60, 66, 58, 0.19) !important;
+}
+
+.table-detail {
+    margin-left: 16px;
+}
+
+
+
+#add {
+    background-color: white;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+#results {
+
+}
+
+
+
+#topbar {
+    background-color:#333333;
+    color:white;
+    width:100%;
+    position: fixed;
+}
+
+#menubar {
+    margin: 0 auto;
+
+}
+
+#menubar ul{
+    padding-left: 1%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+}
+
+#menubar li {
+    padding: 10px 10px 0 10px;
+    float: left;
+    color: white;
+    border-right: 1px solid gray;
+    height: 35px;
+}
+
+#menubar li a:link{ color: white; }
+
+#menubar li a:hover{ color: coral; }
+
+#menubar li a:visited { color: white; }
+
+#content {
+    margin:auto;
+    padding-top: 60px;
+    width:80%;
+}
+
+.form-group {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 40px 0;
+    border-radius: 3px;
+    border: 1px solid orange;
+}
+
+form {
+    padding-top: 15px;
+}
+
+.press {
+    background-color: white;
+    border: 1px solid rgba(235, 234, 237, 0.89);
+    height: 2.5em;
+    width: 6em;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 1px 0 #B4B4B5;
+    box-shadow: 0 1px 1px 0 #B4B4B5;
+}
+
+.fill{
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    height: 25px;
+    border: 1px solid darkgray;
+}
+
+.press:hover {
+    background-color: coral;
+}
+
+
+
+#status {
+    border: 1px solid orange;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.namePark {
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.totalPrice {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+

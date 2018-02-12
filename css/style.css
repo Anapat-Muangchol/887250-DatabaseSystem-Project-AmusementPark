@@ -1,0 +1,132 @@
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Noto Sans Thai, sans-serif;
+    background-color:#F4F5F5;
+}
+
+#topbar {
+    width:100%;
+    margin-top: 20px;
+}
+
+#header {
+    font-weight: bold;
+    font-size: 1.5em;
+    color:white;
+    text-align: center;
+    padding: 7px 0;
+}
+
+#menu {
+    color: white;
+    margin: auto;
+    max-width: 500px;
+    width: 60%;
+    padding-top: 15px;
+}
+
+.card {
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 4px 3px 0 #B4B4B5;
+    box-shadow: 0 4px 3px 0 #B4B4B5;
+}
+
+#menu ul {
+    background-color: rgba(0,0,0,0.61);
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+#menu li {
+    font-size: 1.2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#menu li a {
+    display: block;
+
+}
+
+#menu li:hover:not(#list_header) {
+    background-color: rgba(95, 96, 96, 0.84);
+    color: #FFFFFF;
+}
+
+#list_header {
+    font-size: 1.4em !important;
+    border-bottom: 1px solid #CCCBCB;
+    background-color: rgba(95, 96, 96, 0.84);
+    border-radius: 4px 4px 0 0;
+
+}
+
+.fullscreen-bg {
+    position: fixed;
+    overflow: hidden;
+    z-index: -100;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+#team{
+    margin: auto;
+    max-width: 500px;
+    width: 60%;
+    height: 191px;
+    border-radius: 4px;
+    overflow-y: auto;
+    color: white;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.611765);
+}
+
+#team p {
+    text-align: center;
+}
+
+div#team::-webkit-scrollbar {
+    width: 5px;
+}
+
+div#team::-webkit-scrollbar-thumb {
+    background-color: rgba(175,175,176,0.46);
+    border-radius: 4px;
+}

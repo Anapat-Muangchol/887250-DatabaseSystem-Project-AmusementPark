@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<title>CYOS PARADISE WORLD</title>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/gif" href="../project/images/logo.gif"/>
+    <link
+            href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic|Noto+Sans:400,400italic,700,700italic'
+            rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+<div id="topbar">
+    <div id="header">CYOS PARADISE WORLD</div>
+</div>
+
+<video autoplay loop poster="../project/images/South_East_Queensland_light_trails_amusement_park_1366x768.jpg"
+       id="bgvid">
+    <source src="../project/videos/Lagoon 2013 - Let Fun Reign 480p (Video Only).mp4" type="video/mp4">
+</video>
+
+<div id="menu">
+    <ul>
+        <li id="list_header">MENU</li>
+        <a href="../project/Customer">
+            <li>Customer</li>
+        </a>
+        <a href="../project/ReceiptsDetail">
+            <li>Receipts Detail</li>
+        </a>
+        <a href="../project/TicketType">
+            <li>Ticket Type</li>
+        </a>
+        <a href="../project/Zone">
+            <li>Zone</li>
+        </a>
+        <a href="../project/PlayMachine">
+            <li>Play Machine</li>
+        </a>
+    </ul>
+    <p id="about"><a id="viewTeam" href="#">About</a></p>
+</div>
+
+<div id="team" style="display: none">
+    <p>This website was created by</p>
+    <p>57160033 Anapat Muangchol</p>
+    <p>57160438 Satawass Srisan</p>
+    <p>for the Database Project</p>
+    <p>This website was made based on Chrome<br>
+        but you can use other browsers like Firefox<br>
+        Opera or Safari but if you want the best experience<br>
+        for this website we've recommended you to use<br>
+        Google Chrome</p>
+    <p>Recourse</p>
+    <p>Lagoon 2013 - Let Fun Reign</p>
+</div>
+
+<script>
+    document.getElementById('viewTeam').onclick = function () {
+        var team = document.getElementById('team');
+        team.style.display = team.style.display != 'none' ? 'none' : 'block'
+    }
+</script>
+
+</body>
+
+</html>

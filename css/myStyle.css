@@ -1,0 +1,223 @@
+/*
+This style was created by Satawass Srisan for Database Project.
+*/
+
+@media only screen and (max-width: 960px) {
+    label {
+        display: block;
+        padding: 10px 0;
+    }
+    input {
+        width: 90% !important;
+        display: block;
+        margin: auto;
+    }
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Noto Sans Thai, sans-serif;
+    background-color:#F4F5F5;
+    color: dimgrey;
+}
+
+#search {
+    border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.card {
+    -webkit-box-shadow: 0 4px 3px 0 #B4B4B5;
+    box-shadow: 0 4px 3px 0 #B4B4B5;
+
+}
+
+table a:link{ color: coral; }
+
+table a:hover{color: green;}
+
+table a:visited{ color: coral; }
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+
+th, td {
+    border-right:1px  solid orange;
+    border-left: 1px solid orange;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.table-header {
+    color: white;
+    background-color: coral !important;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:hover:not(.table-header) {
+    background-color: rgba(255, 136, 26, 0.19) !important;
+}
+
+#add {
+    background-color: white;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+#results {
+
+}
+
+
+
+#topbar {
+    background-color:#333333;
+    color:white;
+    width:100%;
+    position: fixed;
+}
+
+#menubar {
+    margin: 0 auto;
+
+}
+
+#menubar ul{
+    padding-left: 1%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+}
+
+#menubar li {
+    padding: 10px 10px 0 10px;
+    float: left;
+    color: white;
+    border-right: 1px solid gray;
+    height: 35px;
+}
+
+#menubar li a:link{ color: white; }
+
+#menubar li a:hover{ color: coral; }
+
+#menubar li a:visited { color: white; }
+
+#content {
+    margin:auto;
+    padding-top: 60px;
+    width:80%;
+}
+
+.form-group {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 40px 0;
+    border-radius: 3px;
+    border: 1px solid orange;
+}
+
+form {
+    padding-top: 15px;
+}
+
+.press {
+    background-color: white;
+    border: 1px solid rgba(235, 234, 237, 0.89);
+    height: 2.5em;
+    width: 6em;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 1px 0 #B4B4B5;
+    box-shadow: 0 1px 1px 0 #B4B4B5;
+}
+
+.fill{
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    height: 25px;
+    border: 1px solid darkgray;
+}
+
+input {
+    width: 15vw;
+    padding-left: 10px;
+}
+
+input[type="checkbox"]{
+
+}
+
+
+
+input:hover {
+    border-color: skyblue;
+}
+
+.press:hover {
+    background-color: coral;
+}
+
+#status {
+    border: 1px solid orange;
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 3px;
+}
+
+/*.modal:target .modal-dialog {
+
+    transform: translate(0, 0);
+    top: 20%;
+}
+
+.modal-dialog {
+    background: #fefefe;
+    border: #333333 solid 1px;
+    border-radius: 5px;
+    margin-left: -200px;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    z-index: 11;
+    width: 360px;
+    transform: translate(0, -500%);
+    transition: transform 0.3s ease-out;
+}
+/*ADDED TO STOP SCROLLING TO TOP*/
+/*#close {
+    display: none;
+}*/
+
+.white-cover {
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Noto Sans Thai, sans-serif;
+    background-color:#F4F5F5;
+}
+
+.card {
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 4px 3px 0 #B4B4B5;
+    box-shadow: 0 4px 3px 0 #B4B4B5;
+
+}
+
+table a:link{ color: cadetblue; }
+
+table a:hover{color: coral;}
+
+table a:visited{ color: coral; }
+
+#topbar {
+    background-color:#333333;
+    color:white;
+    width:100%;
+    height:45px;
+    position: fixed;
+}
+
+#menubar {
+    margin: 0 auto;
+}
+
+#menubar ul{
+    padding-left: 1%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+}
+
+#menubar li {
+    padding: 10px 10px 0 10px;
+    float: left;
+    color: white;
+    border-right: 1px solid gray;
+    height: 35px;
+}
+
+#menubar li a:link{ color: white; }
+
+#menubar li a:hover{ color: coral; }
+
+#menubar li a:visited { color: white; }
+
+#content {
+    clear: both;
+    margin: 0 5%;
+    padding: 5% 5% 0 0;
+}
+
+.press {
+    background-color: white;
+    border: 1px solid rgba(235, 234, 237, 0.89);
+    height: 2.5em;
+    width: 6em;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 1px 0 #B4B4B5;
+    box-shadow: 0 1px 1px 0 #B4B4B5;
+}
+
+.fill{
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: inset 0 1px 1px 0 #B4B4B5;
+    box-shadow: inset 0 1px 1px 0 #B4B4B5;
+    height: 25px;
+    border: 1px solid darkgray;
+}
+
+input[type="checkbox"]{
+    
+}
+
+.press:hover {
+    background-color: coral;
+}
+
+/*!
+Pure v0.6.0
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+https://github.com/yahoo/pure/blob/master/LICENSE.md
+*/
+.pure-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.pure-table-th {
+    background-color:#603A17 !important;
+    color: white !important;
+}
+
+#pure-table-header {
+    background-color:white !important;
+}
+
+.pure-table caption{
+    color:#000;
+    font:italic 85%/1 arial,sans-serif;
+    padding:1em 0;
+    text-align:center
+}
+
+.pure-table td,.pure-table th{
+    border-left:1px solid #cbcbcb;
+    border-width:0 0 0 1px;
+    font-size:inherit;
+    margin:0;
+    overflow:visible;
+    padding:.5em 1em
+}
+
+.pure-table td:first-child,.pure-table th:first-child{
+    border-left-width:0
+}
+
+.pure-table thead{
+    background-color:#e0e0e0;
+    color:#000;
+    text-align:left;
+    vertical-align:bottom
+}
+
+.pure-table td{
+    background-color: white;
+}
+
+.pure-table-odd td{
+    background-color:#f2f2f2
+}
+
+.pure-table-striped tr:nth-child(2n-1) td{
+    background-color:#f2f2f2
+}
+
+.pure-table-bordered td{
+    border-bottom:1px solid #cbcbcb
+}
+
+.pure-table-bordered tbody>tr:last-child>td{
+    border-bottom-width:0
+}
+
+.pure-table-horizontal td,.pure-table-horizontal th{
+    border-width:0 0 1px;border-bottom:1px solid #cbcbcb
+}
+
+.pure-table-horizontal tbody>tr:last-child>td{
+    border-bottom-width:0
+}
+
+
+
+
+
+

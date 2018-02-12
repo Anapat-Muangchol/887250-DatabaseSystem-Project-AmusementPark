@@ -1,0 +1,197 @@
+/*
+This style was created by Satawass Srisan for Database Project.
+*/
+
+@media only screen and (max-width: 960px) {
+
+    .table-form-group {
+        width: 98%;
+    }
+
+    .receive {
+        width: auto;
+    }
+
+    .sel {
+        width:83% !important;
+    }
+
+    .sel option {
+        text-align: center;
+    }
+
+    td {
+        display: block;
+        text-align: center !important;
+}
+    label {
+        display: block;
+        padding: 10px 0;
+    }
+    input {
+        width: 80% !important;
+        display: block;
+        margin: auto;
+    }
+
+
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, Noto Sans Thai, sans-serif;
+    background-color:#F4F5F5;
+    color: dimgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+#form-header {
+    border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.card {
+    -webkit-box-shadow: 0 4px 3px 0 #B4B4B5;
+    box-shadow: 0 4px 3px 0 #B4B4B5;
+
+}
+
+#add {
+    background-color: white;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+}
+
+#topbar {
+    background-color:#333333;
+    color:white;
+    width:100%;
+    position: fixed;
+}
+
+#menubar {
+    margin: 0 auto;
+
+}
+
+#menubar ul{
+    padding-left: 1%;
+    list-style-type: none;
+    float: left;
+    margin: 0;
+}
+
+#menubar li {
+    padding: 10px 10px 0 10px;
+    float: left;
+    color: white;
+    border-right: 1px solid gray;
+    height: 35px;
+}
+
+#menubar li a:link{ color: white; }
+
+#menubar li a:hover{ color: coral; }
+
+#menubar li a:visited { color: white; }
+
+#content {
+    margin:auto;
+    padding-top: 60px;
+    width:80%;
+}
+
+.form-group {
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px 0 40px 0;
+    border-radius: 3px;
+    border: 1px solid orange;
+}
+
+form {
+    padding-top: 15px;
+}
+
+.press {
+    background-color: white;
+    border: 1px solid rgba(235, 234, 237, 0.89);
+    height: 2.5em;
+    width: 6em;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0 1px 1px 0 #B4B4B5;
+    box-shadow: 0 1px 1px 0 #B4B4B5;
+}
+
+.fill{
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid darkgray;
+    height:20px;
+    padding:5px 8px;
+}
+
+.receive{
+
+    width: 220px;
+
+}
+
+.sel{
+    width: 238px;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.sel:hover {
+    box-shadow: 1px 1px 1px 1px rgba(60, 66, 58, 0.19);
+}
+
+input[type="checkbox"]{
+
+}
+
+input:hover {
+    border-color: skyblue;
+}
+
+.press:hover {
+    background-color: coral;
+}
+
+.table-form-group {
+    margin: auto;
+
+}
+
+td:not(#selectZone) {
+    text-align: right;
+}
+
+th, td {
+    padding: 5px 3px;
+}
+
+td, #selectZone {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
